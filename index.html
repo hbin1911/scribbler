@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- TODO: Include Google Fonts file here -->
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body class="background-image">
+    
+    <!-- <div class="background-image"></div> -->
+    <!-- TODO: Include all your code for the header and home page here -->
+    <header class="header">
+        <div>
+            
+                <h1 class="logo"><span>ScriBBler </span></h1>
+                <small id="small">Explore, Imagine, Create</small>
+                
+           
+        </div>
+        <div class="btn">
+            
+            <button class="btn-left" onclick="" id="myBtn">Signin</button>
+            <button class="btn-right" onclick="" id="myBtn1">Signup</button>
+        </div>
+    </header>
+    <div class="center-container">
+        <img src="./images/background.jpg" alt="">
+        <a href="/html/postslist.html">
+            <button class="post-btn">All Posts</button>
+        </a>
+            <button class="post-btn1" onclick="" id="create-post">Create Post</button>
+        
+        
+    </div>
+
+    <div class="center">
+        
+        <div class="container" id="myModal">
+            <label for="" class="close-btn fas fa-times"></label>
+            <div class="text">Welcome Back!</div>
+            <form action="#">
+                <div class="data">
+                    <label>Email</label>
+                    <input type="text" placeholder="Enter your email">
+                </div>
+                <div class="data">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+                <div class="forget"><a href="#">Forgot Password</a></div>
+                <div class="button">
+                    <div class="inner"></div>
+                    <button type="submit">Sign in</button>
+                </div>
+
+
+            </form>
+        </div>
+      
+
+
+         
+    </div>
+    <div class="center1">
+        <div class="container" id="myModal1">
+            <label for="" class="close-btn1 far fa-window-close"></label>
+            <div class="text">Get Started!</div>
+            <form action="#">
+                <div class="data">
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="data">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter your username">
+                </div>
+                <div class="data">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+                <div class="data">
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="Re-type your password">
+                </div>
+                <div class="button">
+                    <div class="inner"></div>
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <div class="cenetr2">
+        <div class="container" id="myModal2">
+            <label for="" class="close-btn2 far fa-window-close"></label>
+            <div class="text">Pen Your Post</div>
+            <form action="#">
+                <div class="data">
+                    <label>Title</label>
+                    <input type="text" placeholder="Enter your title">
+                </div>
+                <div class="data">
+                    <label>Contents</label>
+                    <input type="textarea" placeholder="Enter the contents of your post">
+                </div>
+                <div class="button">
+                    <div class="inner"></div>
+                    <button type="submit">Create</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

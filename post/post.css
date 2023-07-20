@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-family: 'Montez', cursive;
+    color: blue;
+    padding: 0;
+}
+
+img{
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+}
+#small{
+    font-family: 'Ubuntu Mono', monospace;
+}
+.header{
+    /* background-color: rgb(218, 218, 237); */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn{
+    
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.btn-right{
+    margin-right: 20px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-left{
+    margin-right: 20px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.name{
+    float: left;
+    margin-left: 45px;
+    font-weight: 700;
+}
+.icon{
+    float: right;
+    margin-right: 20px;
+    
+    color: white;
+    font-size: 16px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: red;
+}
+.button{
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.like button{
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    margin-top: 15px;
+    margin-left: 120px;
+    cursor: pointer;
+
+}
+.like small{
+    margin-left: 120px;    
+    margin-top: 5px; 
+    color: rgb(172, 176, 176);
+}

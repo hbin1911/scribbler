@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-family: 'Montez', cursive;
+    color: blue;
+    padding: 0;
+}
+#small{
+    font-family: 'Ubuntu Mono', monospace;
+}
+.header{
+    /* background-color: rgb(218, 218, 237); */
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+.btn{
+    
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.btn-right{
+    margin-right: 20px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-left{
+    margin-right: 20px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+body{
+    background-color: bisque;
+    
+}
+.container{
+    padding: 0 80px;
+    flex-direction: row;
+    
+    
+}
+.project-block{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    
+    
+}
+.project-card{
+    background-color: rgb(224, 221, 221);
+    color: black;
+    width: 30%;
+    margin: 10px 10px;
+    padding: 2%;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.left-section{
+    flex: 1;
+    background-color: white;
+    color: grey;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5em;
+    margin-right: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+.right-section{
+    flex: 1;
+}
+.right-section h4{
+    color: grey;
+}
+
+.project-card:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#icon{
+   margin-left: 230px;
+   cursor: pointer;
+    
+}
+#trash{
+    cursor: pointer;
+}
+#trash1{
+    cursor: pointer;
+}
+#trash2{
+    cursor: pointer;
+}
+#trash3{
+    cursor: pointer;
+}
+#trash4{
+    cursor: pointer;
+}
+
+.container-modal{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% ) ;
+    background: #fff;
+    width: 350px ;
+    padding: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+.deletePostModal p{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    /* top: 50%; */
+}
+.left-btn{
+    float: left;
+    padding: 8px 20px;
+    background-color: rgb(62, 237, 62);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.right-btn{
+    float: right;
+    padding: 8px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
