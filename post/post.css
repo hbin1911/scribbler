@@ -101,3 +101,17 @@ h3{
     margin-top: 5px; 
     color: rgb(172, 176, 176);
 }
+.comment{
+    margin-left: 120px;
+    margin-top: 10px;
+    
+}
+.comment button{
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
